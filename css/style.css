@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
 
 header{
     background-image: url(../images/drew-coffman-1872.jpg);
@@ -43,5 +51,38 @@ header  .content-items .d-btns .btn1:hover,header  .content-items .d-btns .btn2:
 }
 
 
+/*! //////////////////////////////////////////////////////////////////////// */
 
+.Baking{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+.Baking h3{
+    margin: 10px;
+}
+.Baking p{
+    margin: 10px;
+}
+.Baking .meals{
+    width: 90%;
+    margin: auto;
+    margin-left: 150px;
+}
+.Baking .meal{
+    width: 30%;
+    float: left;
+    border: 10px solid white;
+}
+.Baking .meal img{
+    width: 100%;
+}
+.Baking .meal h3{
+    padding: 10px 0px;
+}
+.Baking .meal p{
+    line-height: 20px;
+}
+
+/*! //////////////////////////////////////////////////////////////////////// */
 
