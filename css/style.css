@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+
+header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 90vh;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+nav{
+    background-color: transparent;
+    
+}
+nav .logo{
+    width: 120px;
+}
+header .content .content-items h4{
+    font-size: 30px;
+}
+header .content .content-items h1{
+    font-size: 70px;
+}
+header .content .content-items p{
+    font-size: 22px;
+    max-width: 550px;
+}
+header  .content-items .d-btns .btn1{
+    background-color: #8E7754;
+    border: 1px solid #8E7754 ;
+    color: white;
+    transition: all 0.5s;
+    
+}
+header  .content-items .d-btns .btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    color : white;
+    transition: all 0.5s;
+}
+header  .content-items .d-btns .btn1:hover,header  .content-items .d-btns .btn2:hover{
+    background-color: white ;
+    border: none ;
+    color: black;
+    
+}
+
+
+/*! //////////////////////////////////////////////////////////////////////// */
+
+.Baking{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+.Baking h3{
+    margin: 10px;
+}
+.Baking p{
+    margin: 10px;
+}
+.Baking .meals{
+    width: 90%;
+    margin: auto;
+    margin-left: 150px;
+}
+.Baking .meal{
+    width: 30%;
+    float: left;
+    border: 10px solid white;
+}
+.Baking .meal img{
+    width: 100%;
+}
+.Baking .meal h3{
+    padding: 10px 0px;
+}
+.Baking .meal p{
+    line-height: 20px;
+}
+
+/*! //////////////////////////////////////////////////////////////////////// */
+
